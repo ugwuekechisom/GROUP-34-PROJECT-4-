@@ -1,0 +1,91 @@
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f6f8;
+            color: #222;
+        }
+
+        .container {
+            width: 92%;
+            max-width: 600px;
+            margin: 25px auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #00695c;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 12px;
+            margin-bottom: 6px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 13px;
+            margin-top: 18px;
+            border: none;
+            border-radius: 8px;
+            background: #00695c;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        button:active {
+            opacity: 0.8;
+        }
+
+        .record {
+            border-left: 5px solid #00695c;
+            background: #f8fafa;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 8px;
+        }
+
+        .record h3 {
+            margin-top: 0;
+            color: #00695c;
+        }
+
+        .delete-btn {
+            background: #d32f2f;
+            margin-top: 10px;
+        }
+
+        #records {
+            margin-top: 10px;
+        }
+
+        .empty {
+            text-align: center;
+            color: #777;
+            padding: 15px;
+        }
+   
